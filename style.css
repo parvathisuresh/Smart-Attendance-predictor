@@ -1,0 +1,48 @@
+.box1 {
+    text-align: center;
+    height: auto;
+    padding-top: 0px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 11px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.box2 {
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 7px;
+    margin: 5px auto;
+    border: 1px solid  #ccc;
+}
+
+#button {
+    background-color: rgb(64, 184, 199);
+    ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 5%;
+    font-size: 11px;
+    padding: 5px 15px;
+
+}
+
+.card {
+    width: 435px;
+    background: white;
+    padding: 60px;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 100px;
+}

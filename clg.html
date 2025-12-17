@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Attendance Analyzer</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="box1">
+            <h1><u>Smart Attendance Analyzer</u></h1>
+        </div>
+
+        <div class="box2">
+            <h2>Enter your attendance details</h2>
+        </div>
+
+        <div class="input-group">
+            <input type="number" id="totalClasses" placeholder="Total Classes Conducted">
+            <input type="number" id="attendedClasses" placeholder="Classes Attended">
+        </div>
+
+        <button id="button" onclick="predictAttendance()">Predict Attendance</button>
+
+        <!-- RESULT AREA -->
+        <p id="current"></p>
+        <p id="prediction"></p>
+        <p id="warning"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
